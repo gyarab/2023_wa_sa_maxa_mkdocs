@@ -1,4 +1,2 @@
-
 mkdocs
-mkdocs-ivory
-mkdcos-mermaid2-plugin
+mkdocs-gitbook

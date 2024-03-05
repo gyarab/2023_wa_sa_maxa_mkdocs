@@ -5,8 +5,7 @@ nav:
   - WA 4h: 'wa_4.md'
 
 theme:
-  name: ivory
+  name: gitbook
 
 plugins:
     - search
-    - mermaid2

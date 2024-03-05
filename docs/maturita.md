@@ -26,10 +26,3 @@
 |23 | Uživatelé v Unixu | 
 |24 | Práce s textem v Unixu  |
 |25 | Shell a programování v shellu |
-
-```mermaid
-graph LR
-    hello --> world
-    world --> again
-    again --> hello
-```

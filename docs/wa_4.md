@@ -1,5 +1,5 @@
 # Krátký záznam z hodiny webových aplikací dne *23.2* 
-![Fotka tabule](https://lh3.googleusercontent.com/drive-storage/AJQWtBM1umVOkAu4kY4dY5m5wUmLTcdupoaQXXI_xwSPuDAa6tbCjMmCFkXncE74pqrVKxzttPtQovxdnmLsdxUKUoyRo1f34_Rc06UDCYhM=w1903-h953)
+![Fotka tabule](/docs/TabuleZHhodinyWA.png)
 
 ## Krátké shrnutí
 - Připomněli jsme si naši oblíbenou zkratku **D.R.Y** _("Do NOT repeat yourself!")_ 
