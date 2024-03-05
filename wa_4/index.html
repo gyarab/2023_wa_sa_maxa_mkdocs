@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>WA 4h - Maxa</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "WA 4h";
+        var mkdocs_page_input_path = "wa_4.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href=".." class="icon icon-home"> Maxa
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../maturita/">Maturita</a>
+                </li>
+              </ul>
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="./">WA 4h</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#kratke-shrnuti">Krátké shrnutí</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#how-to-mkdocs">How to MkDocs</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#how-to-postnout-webovou-aplikaci-na-github">How to "postnout webovou aplikaci na github"</a>
+    </li>
+        </ul>
+    </li>
+    </ul>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">Maxa</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">WA 4h</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="kratky-zaznam-z-hodiny-webovych-aplikaci-dne-232">Krátký záznam z hodiny webových aplikací dne <em>23.2</em></h1>
+<p><img alt="Fotka tabule" src="https://lh3.googleusercontent.com/drive-storage/AJQWtBM1umVOkAu4kY4dY5m5wUmLTcdupoaQXXI_xwSPuDAa6tbCjMmCFkXncE74pqrVKxzttPtQovxdnmLsdxUKUoyRo1f34_Rc06UDCYhM=w1903-h953" /></p>
+<h2 id="kratke-shrnuti">Krátké shrnutí</h2>
+<ul>
+<li>Připomněli jsme si naši oblíbenou zkratku <strong>D.R.Y</strong> <em>("Do NOT repeat yourself!")</em> </li>
+<li>Vytvořili jsme statickou webovou stránku pomocí <a href="https://www.mkdocs.org/"><strong>MkDocs</strong></a></li>
+<li><strong>MkDocs</strong> je generátor statických stránek určený pro projektovou dokumentaci stavby. Je napsán v jazyce Python.</li>
+<li>V poslední řadě jsme naši webovou aplikaci postli do repozitáře na github</li>
+</ul>
+<h3 id="how-to-mkdocs">How to MkDocs</h3>
+<ul>
+<li>Instalace knihovny<br />
+<code>py -3 -m venv venv</code></li>
+<li>Aktivujeme knihovnu, abychom mohli instalovat mkdocs.<br />
+<code>source ./venv/Script/activate</code></li>
+<li>Instalace MkDocs<br />
+<code>pip install mkdocs</code><br />
+<code>python -m mkdocs</code></li>
+</ul>
+<h3 id="how-to-postnout-webovou-aplikaci-na-github">How to "postnout webovou aplikaci na github"</h3>
+<p>Prvně musíme vytvořit soubor .gitignore, do kterého napíšeme to, co <strong>necheme</strong> pushnout (venv/)<br />
+- <code>$ git init</code><br />
+- <code>$ git add .</code><br />
+- <code>$ git commit -m "My first commit"</code><br />
+- <code>$ git branch -M main</code><br />
+- <code>$ git remote add origin link_to_your_repo</code><br />
+- <code>$ git push -u origin main</code>  </p>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../maturita/" class="btn btn-neutral float-left" title="Maturita"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../maturita/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+  </span>
+</div>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "..";</script>
+    <script src="../js/theme_extra.js"></script>
+    <script src="../js/theme.js"></script>
+      <script src="../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>
